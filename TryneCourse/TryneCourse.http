@@ -1,0 +1,6 @@
+@TryneCourse_HostAddress = http://localhost:5268
+
+GET {{TryneCourse_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
