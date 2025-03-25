@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "First steps", "First steps", "{B45BF431-6FF7-EE7D-5171-EABFD782FF67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryneCourse", "First steps\TryneCourse\TryneCourse.csproj", "{CDF1167B-0086-435A-513A-335BAF6A1E04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDF1167B-0086-435A-513A-335BAF6A1E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF1167B-0086-435A-513A-335BAF6A1E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF1167B-0086-435A-513A-335BAF6A1E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF1167B-0086-435A-513A-335BAF6A1E04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDF1167B-0086-435A-513A-335BAF6A1E04} = {B45BF431-6FF7-EE7D-5171-EABFD782FF67}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F614800-36BD-4DAC-A7C2-EEB2B6E07902}
+	EndGlobalSection
+EndGlobal
