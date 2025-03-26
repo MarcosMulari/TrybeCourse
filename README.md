@@ -1,4 +1,3 @@
 # TrybeCourse
-Repositório criado para armazenar códigos do curso da trybe oferecido pela mottu
 
-Aprendendo a fazer push
+Projeto de visando aprendizado de desenvolvimento de aplicações em C#. 
