@@ -25,7 +25,7 @@ class Program
             switch (Console.ReadLine())
             {
                 case "1":
-                    CalculateAndUpdateRectangle(); // Método alterado
+                    CalculateAndUpdateRectangle(); 
                     break;
                 case "2":
                     CalculateAndUpdateTriangle();
@@ -57,7 +57,7 @@ class Program
         Console.WriteLine("Retângulo: Nenhum cálculo realizado");
     }
 
-    if (recentTriangle != null) // Nome alterado
+    if (recentTriangle != null) 
     {
         Console.WriteLine($"Altura = {recentTriangle.GetHeight()}, " +
                         $"Triângulo: Base = {recentTriangle.GetBaseLength()}, " +
@@ -71,7 +71,7 @@ class Program
     Console.WriteLine("\n----------------------------------------\n");
 }
 
-    static void CalculateAndUpdateRectangle() // Método modificado
+    static void CalculateAndUpdateRectangle()
     {
         Console.WriteLine("\nCálculo do Retângulo");
         var (height, width) = ReadRectangleDimensions();
@@ -82,7 +82,6 @@ class Program
         }
         else
         {
-            // Usando o método de extensão para atualizar
             recentRectangle.UpdateDimensions(height, width);
         }
         
@@ -91,7 +90,7 @@ class Program
     }
 
 
-    static void CalculateAndUpdateTriangle() // Método modificado
+    static void CalculateAndUpdateTriangle()
 {
     Console.WriteLine("\nCálculo do Triângulo");
     var (baseLength, height) = ReadTriangleDimensions();
@@ -102,7 +101,6 @@ class Program
     }
     else
     {
-        // Usando o método de extensão para atualizar
         recentTriangle.UpdateDimensions(baseLength, height);
     }
     
